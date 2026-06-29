@@ -125,15 +125,21 @@ function StrategyRow({ driver, totalLaps }: { driver: DriverStrategy; totalLaps:
         </div>
       </div>
 
-      <div className="relative min-h-14 rounded border border-stone-300 bg-stone-100 p-2">
-        <div className="flex overflow-hidden rounded border-l border-stone-300">
-          {driver.stints.map((stint) => (
-          <StintSegment key={`${driver.driverNumber}-${stint.stintNumber ?? stint.lapStart}`} stint={stint} totalLaps={totalLaps} />
+      <div className="overflow-x-auto rounded border border-stone-300 bg-stone-100">
+        <div className="relative min-h-14 min-w-[720px] p-2">
+          <div className="flex overflow-hidden rounded border-l border-stone-300">
+            {driver.stints.map((stint) => (
+              <StintSegment
+                key={`${driver.driverNumber}-${stint.stintNumber ?? stint.lapStart}`}
+                stint={stint}
+                totalLaps={totalLaps}
+              />
+            ))}
+          </div>
+          {driver.pits.map((pit) => (
+            <PitMarker key={`${driver.driverNumber}-${pit.lap}-${pit.duration}`} pit={pit} totalLaps={totalLaps} />
           ))}
         </div>
-        {driver.pits.map((pit) => (
-          <PitMarker key={`${driver.driverNumber}-${pit.lap}-${pit.duration}`} pit={pit} totalLaps={totalLaps} />
-        ))}
       </div>
     </article>
   )
