@@ -2,6 +2,7 @@ services:
   backend:
     build:
       context: ./backend
+    command: npm run dev
     environment:
       OPENF1_BASE_URL: https://api.openf1.org/v1
       PORT: 3001
@@ -9,17 +10,26 @@ services:
     ports:
       - "3001:3001"
     volumes:
+      - ./backend:/app
+      - backend-node-modules:/app/node_modules
       - backend-cache:/app/cache
 
   frontend:
     build:
       context: ./frontend
+    command: npm run dev -- --host 0.0.0.0
     depends_on:
       - backend
     environment:
       VITE_BACKEND_TARGET: http://backend:3001
+      CHOKIDAR_USEPOLLING: "true"
     ports:
       - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - frontend-node-modules:/app/node_modules
 
 volumes:
   backend-cache:
+  backend-node-modules:
+  frontend-node-modules:

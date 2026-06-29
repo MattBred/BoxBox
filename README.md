@@ -35,6 +35,12 @@ The backend is exposed at:
 http://localhost:3001
 ```
 
+Compose runs both services in development mode. Source files are bind-mounted into the containers, so frontend changes should hot-reload without rebuilding the image. If you change dependencies or Dockerfiles, rerun:
+
+```bash
+docker compose up --build
+```
+
 ## Local Development
 
 Install backend dependencies:
