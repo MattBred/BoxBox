@@ -1,0 +1,14 @@
+{
+  "sessions": [
+    {
+      "sessionKey": 11315,
+      "meetingKey": 1288,
+      "year": 2026,
+      "countryName": "Austria",
+      "location": "Spielberg",
+      "sessionName": "Race",
+      "dateStart": "2026-06-28T13:00:00+00:00",
+      "label": "2026 Austria - Race"
+    }
+  ]
+}

@@ -36,6 +36,10 @@ interface StrategyPayload {
   drivers: DriverStrategy[]
 }
 
+const isStaticDemo = import.meta.env.VITE_STATIC_DEMO === 'true'
+const demoBasePath = import.meta.env.BASE_URL
+const defaultRaceYear = '2026'
+
 const compoundStyles: Record<string, string> = {
   SOFT: 'bg-red-600 text-white border-red-700',
   MEDIUM: 'bg-yellow-300 text-stone-950 border-yellow-400',
@@ -66,6 +70,26 @@ function formatPitDuration(seconds: number | null | undefined) {
   }
 
   return `${seconds.toFixed(1)}s`
+}
+
+function demoDataPath(path: string) {
+  return `${demoBasePath}${path}`.replace(/\/{2,}/g, '/')
+}
+
+function sessionsUrl() {
+  if (isStaticDemo) {
+    return demoDataPath('data/sessions.json')
+  }
+
+  return `/api/sessions?year=${defaultRaceYear}&session_name=Race`
+}
+
+function strategyUrl(sessionKey: string) {
+  if (isStaticDemo) {
+    return demoDataPath(`data/strategy/${sessionKey}.json`)
+  }
+
+  return `/api/strategy/${sessionKey}`
 }
 
 function StintSegment({ stint, totalLaps }: { stint: Stint; totalLaps: number }) {
@@ -157,7 +181,7 @@ function App() {
     async function loadSessions() {
       try {
         setSessionsStatus('loading')
-        const response = await fetch('/api/sessions?year=2026&session_name=Race')
+        const response = await fetch(sessionsUrl())
 
         if (!response.ok) {
           throw new Error('Could not load race sessions.')
@@ -185,7 +209,7 @@ function App() {
       try {
         setStrategyStatus('loading')
         setError('')
-        const response = await fetch(`/api/strategy/${selectedSessionKey}`)
+        const response = await fetch(strategyUrl(selectedSessionKey))
 
         if (!response.ok) {
           const data = (await response.json().catch(() => ({}))) as { error?: string }

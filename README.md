@@ -4,6 +4,8 @@ Box, Box is a side-project Formula 1 pit strategy visualizer. It uses the public
 
 The app is intentionally small: TypeScript backend, TypeScript React frontend, no database, and file-based caching for OpenF1 responses transformed by session.
 
+[Live demo](https://mattbred.github.io/BoxBox/)
+
 ![Box, Box strategy dashboard](docs/screenshot.png)
 
 ## Stack
@@ -40,6 +42,18 @@ Compose runs both services in development mode. Source files are bind-mounted in
 ```bash
 docker compose up --build
 ```
+
+## Live Demo
+
+Open the live demo:
+
+```text
+https://mattbred.github.io/BoxBox/
+```
+
+The GitHub Pages deployment runs as a static demo using committed JSON for the 2026 Austria Race. It does not need the backend server at runtime. GitHub READMEs cannot embed the live app directly because scripts and iframes are stripped, so the README links to the hosted app and shows a screenshot instead.
+
+The workflow in `.github/workflows/pages.yml` publishes the frontend on pushes to `master`.
 
 ## Local Development
 
@@ -79,6 +93,7 @@ cd frontend
 npm run typecheck
 npm run lint
 npm run build
+npm run build:pages
 ```
 
 ## Data Flow
@@ -120,14 +135,14 @@ GET /api/strategy/:sessionKey
 Known smoke-test session:
 
 ```text
-2026 Bahrain Race
-session_key: 9472
+2026 Austria Race
+session_key: 11315
 ```
 
 Example:
 
 ```bash
-curl http://localhost:3001/api/strategy/9472
+curl http://localhost:3001/api/strategy/11315
 ```
 
 ## Manual QA
@@ -135,7 +150,7 @@ curl http://localhost:3001/api/strategy/9472
 - Start the app with `docker compose up --build`.
 - Open `http://localhost:5173`.
 - Confirm the race dropdown loads.
-- Confirm the dashboard renders 2026 Bahrain Race strategy rows.
+- Confirm the dashboard renders 2026 Austria Race strategy rows.
 - Confirm compound colors appear for soft, hard, and any other available compounds.
 - Confirm pit stop duration markers appear on the timelines.
 - Hover a stint and confirm lap range, compound, and average lap time are shown.

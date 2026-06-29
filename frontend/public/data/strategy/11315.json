@@ -1,0 +1,973 @@
+{
+  "session": {
+    "sessionKey": 11315,
+    "meetingKey": 1288,
+    "year": 2026,
+    "countryName": "Austria",
+    "location": "Spielberg",
+    "sessionName": "Race",
+    "dateStart": "2026-06-28T13:00:00+00:00",
+    "dateEnd": "2026-06-28T15:00:00+00:00"
+  },
+  "totalLaps": 71,
+  "drivers": [
+    {
+      "driverNumber": 1,
+      "code": "NOR",
+      "fullName": "Lando NORRIS",
+      "teamName": "McLaren",
+      "teamColor": "F47600",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 21,
+          "lapCount": 21,
+          "averageLapTime": 73.75490476190477
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 22,
+          "lapEnd": 47,
+          "lapCount": 26,
+          "averageLapTime": 74.54073076923076
+        },
+        {
+          "stintNumber": 3,
+          "compound": "HARD",
+          "lapStart": 48,
+          "lapEnd": 71,
+          "lapCount": 24,
+          "averageLapTime": 72.6260416666667
+        }
+      ],
+      "pits": [
+        {
+          "lap": 21,
+          "duration": 21.5,
+          "date": "2026-06-28T13:29:25.824000+00:00"
+        },
+        {
+          "lap": 47,
+          "duration": 21.8,
+          "date": "2026-06-28T14:01:44.351000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 3,
+      "code": "VER",
+      "fullName": "Max VERSTAPPEN",
+      "teamName": "Red Bull Racing",
+      "teamColor": "4781D7",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 18,
+          "lapCount": 18,
+          "averageLapTime": 73.08794444444445
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 19,
+          "lapEnd": 49,
+          "lapCount": 31,
+          "averageLapTime": 74.05832258064518
+        },
+        {
+          "stintNumber": 3,
+          "compound": "HARD",
+          "lapStart": 50,
+          "lapEnd": 71,
+          "lapCount": 22,
+          "averageLapTime": 72.21418181818183
+        }
+      ],
+      "pits": [
+        {
+          "lap": 18,
+          "duration": 21.3,
+          "date": "2026-06-28T13:25:32.461000+00:00"
+        },
+        {
+          "lap": 49,
+          "duration": 21.2,
+          "date": "2026-06-28T14:03:48.538000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 5,
+      "code": "BOR",
+      "fullName": "Gabriel BORTOLETO",
+      "teamName": "Audi",
+      "teamColor": "F50537",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 17,
+          "lapCount": 17,
+          "averageLapTime": 74.65229411764707
+        },
+        {
+          "stintNumber": 2,
+          "compound": "MEDIUM",
+          "lapStart": 18,
+          "lapEnd": 44,
+          "lapCount": 27,
+          "averageLapTime": 75.5712962962963
+        },
+        {
+          "stintNumber": 3,
+          "compound": "HARD",
+          "lapStart": 45,
+          "lapEnd": 70,
+          "lapCount": 26,
+          "averageLapTime": 73.82007692307694
+        }
+      ],
+      "pits": [
+        {
+          "lap": 17,
+          "duration": 22.6,
+          "date": "2026-06-28T13:24:47.179000+00:00"
+        },
+        {
+          "lap": 44,
+          "duration": 21.8,
+          "date": "2026-06-28T13:58:47.094000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 6,
+      "code": "HAD",
+      "fullName": "Isack HADJAR",
+      "teamName": "Red Bull Racing",
+      "teamColor": "4781D7",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 18,
+          "lapCount": 18,
+          "averageLapTime": 73.81505555555556
+        },
+        {
+          "stintNumber": 2,
+          "compound": "MEDIUM",
+          "lapStart": 19,
+          "lapEnd": 40,
+          "lapCount": 22,
+          "averageLapTime": 75.03186363636362
+        },
+        {
+          "stintNumber": 3,
+          "compound": "HARD",
+          "lapStart": 41,
+          "lapEnd": 71,
+          "lapCount": 31,
+          "averageLapTime": 72.53093548387098
+        }
+      ],
+      "pits": [
+        {
+          "lap": 18,
+          "duration": 21.7,
+          "date": "2026-06-28T13:25:46.069000+00:00"
+        },
+        {
+          "lap": 40,
+          "duration": 21.2,
+          "date": "2026-06-28T13:53:16.481000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 10,
+      "code": "GAS",
+      "fullName": "Pierre GASLY",
+      "teamName": "Alpine",
+      "teamColor": "00A1E8",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 13,
+          "lapCount": 13,
+          "averageLapTime": 75.42938461538462
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 14,
+          "lapEnd": 38,
+          "lapCount": 25,
+          "averageLapTime": 75.85715999999998
+        },
+        {
+          "stintNumber": 3,
+          "compound": "MEDIUM",
+          "lapStart": 39,
+          "lapEnd": 51,
+          "lapCount": 13,
+          "averageLapTime": 74.35961538461538
+        },
+        {
+          "stintNumber": 4,
+          "compound": "SOFT",
+          "lapStart": 52,
+          "lapEnd": 70,
+          "lapCount": 19,
+          "averageLapTime": 73.37126315789473
+        }
+      ],
+      "pits": [
+        {
+          "lap": 13,
+          "duration": 21.6,
+          "date": "2026-06-28T13:19:57.672000+00:00"
+        },
+        {
+          "lap": 38,
+          "duration": 21.2,
+          "date": "2026-06-28T13:51:34.103000+00:00"
+        },
+        {
+          "lap": 51,
+          "duration": 21.5,
+          "date": "2026-06-28T14:07:41.166000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 11,
+      "code": "PER",
+      "fullName": "Sergio PEREZ",
+      "teamName": "Cadillac",
+      "teamColor": "909090",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 4,
+          "lapCount": 4,
+          "averageLapTime": 79.43549999999999
+        }
+      ],
+      "pits": []
+    },
+    {
+      "driverNumber": 12,
+      "code": "ANT",
+      "fullName": "Kimi ANTONELLI",
+      "teamName": "Mercedes",
+      "teamColor": "00D7B6",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 24,
+          "lapCount": 24,
+          "averageLapTime": 73.221625
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 25,
+          "lapEnd": 51,
+          "lapCount": 27,
+          "averageLapTime": 74.06777777777779
+        },
+        {
+          "stintNumber": 3,
+          "compound": "HARD",
+          "lapStart": 52,
+          "lapEnd": 71,
+          "lapCount": 20,
+          "averageLapTime": 72.15979999999999
+        }
+      ],
+      "pits": [
+        {
+          "lap": 24,
+          "duration": 21.4,
+          "date": "2026-06-28T13:32:54.499000+00:00"
+        },
+        {
+          "lap": 51,
+          "duration": 21.5,
+          "date": "2026-06-28T14:06:14.731000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 14,
+      "code": "ALO",
+      "fullName": "Fernando ALONSO",
+      "teamName": "Aston Martin",
+      "teamColor": "229971",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 24,
+          "lapCount": 24,
+          "averageLapTime": 76.81504166666666
+        },
+        {
+          "stintNumber": 2,
+          "compound": "SOFT",
+          "lapStart": 25,
+          "lapEnd": 49,
+          "lapCount": 25,
+          "averageLapTime": 76.83148
+        },
+        {
+          "stintNumber": 3,
+          "compound": "SOFT",
+          "lapStart": 50,
+          "lapEnd": 68,
+          "lapCount": 19,
+          "averageLapTime": 75.72773684210524
+        }
+      ],
+      "pits": [
+        {
+          "lap": 24,
+          "duration": 22.3,
+          "date": "2026-06-28T13:34:21.799000+00:00"
+        },
+        {
+          "lap": 49,
+          "duration": 28.7,
+          "date": "2026-06-28T14:06:29.094000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 16,
+      "code": "LEC",
+      "fullName": "Charles LECLERC",
+      "teamName": "Ferrari",
+      "teamColor": "ED1131",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 13,
+          "lapCount": 13,
+          "averageLapTime": 73.64376923076922
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 14,
+          "lapEnd": 37,
+          "lapCount": 24,
+          "averageLapTime": 75.09404166666667
+        },
+        {
+          "stintNumber": 3,
+          "compound": "HARD",
+          "lapStart": 38,
+          "lapEnd": 59,
+          "lapCount": 22,
+          "averageLapTime": 73.43395454545455
+        },
+        {
+          "stintNumber": 4,
+          "compound": "SOFT",
+          "lapStart": 60,
+          "lapEnd": 71,
+          "lapCount": 12,
+          "averageLapTime": 72.41741666666667
+        }
+      ],
+      "pits": [
+        {
+          "lap": 13,
+          "duration": 21.7,
+          "date": "2026-06-28T13:19:34.611000+00:00"
+        },
+        {
+          "lap": 37,
+          "duration": 21,
+          "date": "2026-06-28T13:49:36.347000+00:00"
+        },
+        {
+          "lap": 59,
+          "duration": 22.7,
+          "date": "2026-06-28T14:16:33.840000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 18,
+      "code": "STR",
+      "fullName": "Lance STROLL",
+      "teamName": "Aston Martin",
+      "teamColor": "229971",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 24,
+          "lapCount": 24,
+          "averageLapTime": 77.15970833333334
+        },
+        {
+          "stintNumber": 2,
+          "compound": "SOFT",
+          "lapStart": 25,
+          "lapEnd": 45,
+          "lapCount": 21,
+          "averageLapTime": 77.9585238095238
+        }
+      ],
+      "pits": [
+        {
+          "lap": 24,
+          "duration": 23.5,
+          "date": "2026-06-28T13:34:30.473000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 23,
+      "code": "ALB",
+      "fullName": "Alexander ALBON",
+      "teamName": "Williams",
+      "teamColor": "1868DB",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 18,
+          "lapCount": 18,
+          "averageLapTime": 75.56366666666666
+        },
+        {
+          "stintNumber": 2,
+          "compound": "MEDIUM",
+          "lapStart": 19,
+          "lapEnd": 37,
+          "lapCount": 19,
+          "averageLapTime": 77.309
+        },
+        {
+          "stintNumber": 3,
+          "compound": "HARD",
+          "lapStart": 38,
+          "lapEnd": 69,
+          "lapCount": 32,
+          "averageLapTime": 74.92096875000001
+        }
+      ],
+      "pits": [
+        {
+          "lap": 18,
+          "duration": 21.2,
+          "date": "2026-06-28T13:26:17.113000+00:00"
+        },
+        {
+          "lap": 37,
+          "duration": 21.2,
+          "date": "2026-06-28T13:50:46.204000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 27,
+      "code": "HUL",
+      "fullName": "Nico HULKENBERG",
+      "teamName": "Audi",
+      "teamColor": "F50537",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 21,
+          "lapCount": 21,
+          "averageLapTime": 75.16871428571427
+        },
+        {
+          "stintNumber": 2,
+          "compound": "MEDIUM",
+          "lapStart": 22,
+          "lapEnd": 45,
+          "lapCount": 24,
+          "averageLapTime": 75.52612500000001
+        },
+        {
+          "stintNumber": 3,
+          "compound": "HARD",
+          "lapStart": 46,
+          "lapEnd": 70,
+          "lapCount": 25,
+          "averageLapTime": 73.83103999999999
+        }
+      ],
+      "pits": [
+        {
+          "lap": 21,
+          "duration": 21.5,
+          "date": "2026-06-28T13:29:55.706000+00:00"
+        },
+        {
+          "lap": 45,
+          "duration": 22.5,
+          "date": "2026-06-28T14:00:09.488000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 30,
+      "code": "LAW",
+      "fullName": "Liam LAWSON",
+      "teamName": "Racing Bulls",
+      "teamColor": "6C98FF",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 19,
+          "lapCount": 19,
+          "averageLapTime": 74.27457894736843
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 20,
+          "lapEnd": 45,
+          "lapCount": 26,
+          "averageLapTime": 75.5768076923077
+        },
+        {
+          "stintNumber": 3,
+          "compound": "MEDIUM",
+          "lapStart": 46,
+          "lapEnd": 70,
+          "lapCount": 25,
+          "averageLapTime": 73.49972000000001
+        }
+      ],
+      "pits": [
+        {
+          "lap": 19,
+          "duration": 22,
+          "date": "2026-06-28T13:27:09.009000+00:00"
+        },
+        {
+          "lap": 45,
+          "duration": 21.5,
+          "date": "2026-06-28T13:59:53.792000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 31,
+      "code": "OCO",
+      "fullName": "Esteban OCON",
+      "teamName": "Haas F1 Team",
+      "teamColor": "9C9FA2",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 18,
+          "lapCount": 18,
+          "averageLapTime": 75.4028888888889
+        },
+        {
+          "stintNumber": 2,
+          "compound": "MEDIUM",
+          "lapStart": 19,
+          "lapEnd": 33,
+          "lapCount": 15,
+          "averageLapTime": 77.87293333333332
+        },
+        {
+          "stintNumber": 3,
+          "compound": "HARD",
+          "lapStart": 34,
+          "lapEnd": 69,
+          "lapCount": 36,
+          "averageLapTime": 74.97038888888889
+        }
+      ],
+      "pits": [
+        {
+          "lap": 18,
+          "duration": 21.8,
+          "date": "2026-06-28T13:26:14.833000+00:00"
+        },
+        {
+          "lap": 33,
+          "duration": 25.4,
+          "date": "2026-06-28T13:45:46.672000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 41,
+      "code": "LIN",
+      "fullName": "Arvid LINDBLAD",
+      "teamName": "Racing Bulls",
+      "teamColor": "6C98FF",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 18,
+          "lapCount": 18,
+          "averageLapTime": 74.42772222222223
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 19,
+          "lapEnd": 46,
+          "lapCount": 28,
+          "averageLapTime": 75.32571428571428
+        },
+        {
+          "stintNumber": 3,
+          "compound": "MEDIUM",
+          "lapStart": 47,
+          "lapEnd": 70,
+          "lapCount": 24,
+          "averageLapTime": 73.69408333333332
+        }
+      ],
+      "pits": [
+        {
+          "lap": 18,
+          "duration": 21.4,
+          "date": "2026-06-28T13:25:56.802000+00:00"
+        },
+        {
+          "lap": 46,
+          "duration": 21.5,
+          "date": "2026-06-28T14:01:06.281000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 43,
+      "code": "COL",
+      "fullName": "Franco COLAPINTO",
+      "teamName": "Alpine",
+      "teamColor": "00A1E8",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 20,
+          "lapCount": 20,
+          "averageLapTime": 75.56379999999999
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 21,
+          "lapEnd": 46,
+          "lapCount": 26,
+          "averageLapTime": 76.18384615384615
+        },
+        {
+          "stintNumber": 3,
+          "compound": "MEDIUM",
+          "lapStart": 47,
+          "lapEnd": 70,
+          "lapCount": 24,
+          "averageLapTime": 73.82991666666669
+        }
+      ],
+      "pits": [
+        {
+          "lap": 20,
+          "duration": 21.5,
+          "date": "2026-06-28T13:28:48.729000+00:00"
+        },
+        {
+          "lap": 46,
+          "duration": 21.4,
+          "date": "2026-06-28T14:01:49.515000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 44,
+      "code": "HAM",
+      "fullName": "Lewis HAMILTON",
+      "teamName": "Ferrari",
+      "teamColor": "ED1131",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 12,
+          "lapCount": 12,
+          "averageLapTime": 73.24625
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 13,
+          "lapEnd": 25,
+          "lapCount": 13,
+          "averageLapTime": 75.78346153846152
+        },
+        {
+          "stintNumber": 3,
+          "compound": "SOFT",
+          "lapStart": 26,
+          "lapEnd": 42,
+          "lapCount": 17,
+          "averageLapTime": 73.888
+        },
+        {
+          "stintNumber": 4,
+          "compound": "HARD",
+          "lapStart": 43,
+          "lapEnd": 71,
+          "lapCount": 29,
+          "averageLapTime": 72.56937931034481
+        }
+      ],
+      "pits": [
+        {
+          "lap": 12,
+          "duration": 21.3,
+          "date": "2026-06-28T13:18:16+00:00"
+        },
+        {
+          "lap": 25,
+          "duration": 21.2,
+          "date": "2026-06-28T13:34:41.205000+00:00"
+        },
+        {
+          "lap": 42,
+          "duration": 21.2,
+          "date": "2026-06-28T13:55:37.472000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 55,
+      "code": "SAI",
+      "fullName": "Carlos SAINZ",
+      "teamName": "Williams",
+      "teamColor": "1868DB",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "SOFT",
+          "lapStart": 1,
+          "lapEnd": 14,
+          "lapCount": 14,
+          "averageLapTime": 75.60435714285714
+        },
+        {
+          "stintNumber": 2,
+          "compound": "MEDIUM",
+          "lapStart": 15,
+          "lapEnd": 23,
+          "lapCount": 9,
+          "averageLapTime": 76.17188888888889
+        }
+      ],
+      "pits": [
+        {
+          "lap": 14,
+          "duration": 21.3,
+          "date": "2026-06-28T13:21:15.449000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 63,
+      "code": "RUS",
+      "fullName": "George RUSSELL",
+      "teamName": "Mercedes",
+      "teamColor": "00D7B6",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 19,
+          "lapCount": 19,
+          "averageLapTime": 72.83368421052633
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 20,
+          "lapEnd": 43,
+          "lapCount": 24,
+          "averageLapTime": 74.61800000000001
+        },
+        {
+          "stintNumber": 3,
+          "compound": "HARD",
+          "lapStart": 44,
+          "lapEnd": 71,
+          "lapCount": 28,
+          "averageLapTime": 72.277
+        }
+      ],
+      "pits": [
+        {
+          "lap": 19,
+          "duration": 21.2,
+          "date": "2026-06-28T13:26:40.718000+00:00"
+        },
+        {
+          "lap": 43,
+          "duration": 21.2,
+          "date": "2026-06-28T13:56:31.785000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 77,
+      "code": "BOT",
+      "fullName": "Valtteri BOTTAS",
+      "teamName": "Cadillac",
+      "teamColor": "909090",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 2,
+          "lapCount": 2,
+          "averageLapTime": 86.105
+        }
+      ],
+      "pits": []
+    },
+    {
+      "driverNumber": 81,
+      "code": "PIA",
+      "fullName": "Oscar PIASTRI",
+      "teamName": "McLaren",
+      "teamColor": "F47600",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 19,
+          "lapCount": 19,
+          "averageLapTime": 73.63452631578947
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 20,
+          "lapEnd": 42,
+          "lapCount": 23,
+          "averageLapTime": 74.77756521739133
+        },
+        {
+          "stintNumber": 3,
+          "compound": "HARD",
+          "lapStart": 43,
+          "lapEnd": 71,
+          "lapCount": 29,
+          "averageLapTime": 72.4531379310345
+        }
+      ],
+      "pits": [
+        {
+          "lap": 19,
+          "duration": 22,
+          "date": "2026-06-28T13:26:56.641000+00:00"
+        },
+        {
+          "lap": 42,
+          "duration": 21.2,
+          "date": "2026-06-28T13:55:35.812000+00:00"
+        }
+      ]
+    },
+    {
+      "driverNumber": 87,
+      "code": "BEA",
+      "fullName": "Oliver BEARMAN",
+      "teamName": "Haas F1 Team",
+      "teamColor": "9C9FA2",
+      "stints": [
+        {
+          "stintNumber": 1,
+          "compound": "MEDIUM",
+          "lapStart": 1,
+          "lapEnd": 24,
+          "lapCount": 24,
+          "averageLapTime": 75.68670833333333
+        },
+        {
+          "stintNumber": 2,
+          "compound": "HARD",
+          "lapStart": 25,
+          "lapEnd": 45,
+          "lapCount": 21,
+          "averageLapTime": 75.88385714285715
+        },
+        {
+          "stintNumber": 3,
+          "compound": "MEDIUM",
+          "lapStart": 46,
+          "lapEnd": 70,
+          "lapCount": 25,
+          "averageLapTime": 74.04424
+        }
+      ],
+      "pits": [
+        {
+          "lap": 24,
+          "duration": 21.5,
+          "date": "2026-06-28T13:33:53.795000+00:00"
+        },
+        {
+          "lap": 45,
+          "duration": 22,
+          "date": "2026-06-28T14:00:27.963000+00:00"
+        }
+      ]
+    }
+  ],
+  "source": {
+    "fetchedAt": "2026-06-29T18:35:13.238Z",
+    "counts": {
+      "drivers": 22,
+      "stints": 63,
+      "pits": 41,
+      "laps": 1342
+    }
+  }
+}
