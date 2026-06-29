@@ -16,7 +16,7 @@ const healthHandler: RequestHandler = (_request, response) => {
 
 const sessionsHandler: RequestHandler = async (request, response, next) => {
   try {
-    const year = String(request.query.year || "2024");
+    const year = String(request.query.year || "2026");
     const sessionName = String(request.query.session_name || "Race");
     const countryName = typeof request.query.country_name === "string" ? request.query.country_name : undefined;
 

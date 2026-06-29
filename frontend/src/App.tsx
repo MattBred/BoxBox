@@ -157,7 +157,7 @@ function App() {
     async function loadSessions() {
       try {
         setSessionsStatus('loading')
-        const response = await fetch('/api/sessions?year=2024&session_name=Race')
+        const response = await fetch('/api/sessions?year=2026&session_name=Race')
 
         if (!response.ok) {
           throw new Error('Could not load race sessions.')

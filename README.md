@@ -113,14 +113,14 @@ backend-cache
 
 ```text
 GET /health
-GET /api/sessions?year=2024&session_name=Race
+GET /api/sessions?year=2026&session_name=Race
 GET /api/strategy/:sessionKey
 ```
 
 Known smoke-test session:
 
 ```text
-2024 Bahrain Race
+2026 Bahrain Race
 session_key: 9472
 ```
 
@@ -135,7 +135,7 @@ curl http://localhost:3001/api/strategy/9472
 - Start the app with `docker compose up --build`.
 - Open `http://localhost:5173`.
 - Confirm the race dropdown loads.
-- Confirm the dashboard renders 2024 Bahrain Race strategy rows.
+- Confirm the dashboard renders 2026 Bahrain Race strategy rows.
 - Confirm compound colors appear for soft, hard, and any other available compounds.
 - Confirm pit stop duration markers appear on the timelines.
 - Hover a stint and confirm lap range, compound, and average lap time are shown.

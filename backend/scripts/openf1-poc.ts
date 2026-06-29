@@ -2,7 +2,7 @@ import { fetchOpenF1, fetchRaceInputs } from "../src/openf1Client.js";
 import { transformStrategy } from "../src/strategyTransform.js";
 import type { OpenF1Session } from "../src/types.js";
 
-const DEFAULT_YEAR = process.env.OPENF1_YEAR || "2024";
+const DEFAULT_YEAR = process.env.OPENF1_YEAR || "2026";
 const DEFAULT_COUNTRY = process.env.OPENF1_COUNTRY || "Bahrain";
 const DEFAULT_SESSION_NAME = process.env.OPENF1_SESSION_NAME || "Race";
 
