@@ -1,0 +1,25 @@
+services:
+  backend:
+    build:
+      context: ./backend
+    environment:
+      OPENF1_BASE_URL: https://api.openf1.org/v1
+      PORT: 3001
+      CACHE_DIR: cache
+    ports:
+      - "3001:3001"
+    volumes:
+      - backend-cache:/app/cache
+
+  frontend:
+    build:
+      context: ./frontend
+    depends_on:
+      - backend
+    environment:
+      VITE_BACKEND_TARGET: http://backend:3001
+    ports:
+      - "5173:5173"
+
+volumes:
+  backend-cache:
